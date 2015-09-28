@@ -2805,6 +2805,26 @@ body.addcart .product__color:after,
   width: -moz-calc(100% - 11rem);
   width: calc(100% - 11rem);
 }
+.product__info, .product__fav.bottom {
+  padding: .8rem 1.2rem 1.2rem;
+  float: left;
+  width: 18.4rem;
+  width: -webkit-calc(100% - 11rem);
+  width: -moz-calc(100% - 11rem);
+  width: calc(100% - 11rem);
+}
+.product__info.top {
+  padding: 0 1.2rem;
+  width: 100%;
+}
+.product__fav.bottom a {
+  border: 0 none;
+  margin: 0;
+}
+.product__inner {
+  border-bottom: 0.1rem solid #eee;
+  padding: 1.2rem 0;
+}
 .product__price {
   line-height: 2rem;
   margin: 0 1.2rem 0 0;
